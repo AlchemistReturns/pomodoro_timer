@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.abrar.pomodoro_timer.HelloController">
+
+    <Label fx:id="timerLabel" text="25:00" style="-fx-font-size: 40px; -fx-font-weight: bold;" />
+
+    <ProgressBar fx:id="progressBar" prefWidth="300" progress="0" />
+
+    <HBox spacing="10" alignment="CENTER">
+        <Label text="Work:"/>
+        <ComboBox fx:id="workInput"/>
+        <Label text="Break:"/>
+        <ComboBox fx:id="breakInput"/>
+        <Label text="Long:"/>
+        <ComboBox fx:id="longBreakInput"/>
+    </HBox>
+
+    <HBox spacing="10" alignment="CENTER">
+        <Button fx:id="startPauseBtn" text="Start" onAction="#onStartPause"/>
+        <Button fx:id="resetBtn" text="Reset" onAction="#onReset"/>
+    </HBox>
+
+    <ToggleButton fx:id="themeToggle" text="Dark Mode" onAction="#onThemeToggle"/>
+
+</VBox>

@@ -1,0 +1,117 @@
+.root {
+    -fx-background-color: #FAF9EE;
+    -fx-font-family: "Segoe UI", sans-serif;
+    -fx-font-weight: 700;
+}
+
+.label {
+    -fx-text-fill: #111111;
+}
+
+#timerLabel {
+    -fx-font-size: 48px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #27c596;
+}
+
+.progress-bar {
+    -fx-accent: #27c596;
+    -fx-control-inner-background: #2a2a2a;
+
+    -fx-background-insets: 0;
+    -fx-padding: 0;
+
+    -fx-background-radius: 0;
+    -fx-border-color: transparent;
+    -fx-border-width: 0;
+    -fx-border-insets: 0;
+
+    -fx-pref-width: 300;
+    -fx-pref-height: 14;
+}
+
+.progress-bar .track {
+    -fx-background-color: transparent;
+    -fx-background-radius: 0;
+    -fx-padding: 0;
+    -fx-border-color: #27c596;
+    -fx-border-width: 1;
+    -fx-border-insets: 0;
+}
+
+
+.progress-bar .bar {
+    -fx-background-color: -fx-accent;
+    -fx-background-radius: 0;
+    -fx-padding: 0;
+    -fx-border-color: transparent;
+    -fx-border-width: 0;
+    -fx-border-insets: 0;
+}
+
+
+
+.button {
+    -fx-font-size: 14px;
+    -fx-padding: 8 24;
+    -fx-background-color: #FAF9EE;
+    -fx-text-fill: black;
+    -fx-background-radius: 30;
+    -fx-border-radius: 30;
+    -fx-border-color: transparent;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 4, 0.5, 0, 1);
+}
+
+.button:hover {
+    -fx-background-color: #A2AF9B;
+}
+
+.toggle-button {
+    -fx-background-color: black;
+    -fx-text-fill: white;
+    -fx-font-size: 13px;
+    -fx-background-radius: 20;
+    -fx-padding: 6 14;
+}
+
+.toggle-button:selected {
+    -fx-background-color: #666666;
+    -fx-text-fill: #ffffff;
+}
+
+.combo-box {
+    -fx-background-color: #FAF9EE;
+    -fx-border-color: transparent;
+    -fx-text-fill: #eeeeee;
+    -fx-font-size: 13px;
+    -fx-padding: 4 8;
+    -fx-background-radius: 6;
+    -fx-border-radius: 6;
+}
+
+.combo-box .arrow-button {
+    -fx-background-color: #FAF9EE;
+}
+
+.combo-box .arrow {
+    -fx-background-color: #27c596;
+}
+
+.combo-box .list-cell {
+    -fx-background-color: #FAF9EE;
+    -fx-text-fill: #111111;
+}
+
+.combo-box .list-cell:hover {
+    -fx-background-color: #A2AF9B;
+}
+
+.combo-box-popup .list-view {
+    -fx-background-color: #FAF9EE;
+}
+
+#startPauseBtn {
+    -fx-background-color: #27c596;
+    -fx-text-fill: #000000;
+}
+
